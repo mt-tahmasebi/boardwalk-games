@@ -18,6 +18,14 @@ h1, h2, h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
 }
+/* navbar */
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 30px;
+}
 /*
 .sub-heading-color {
     color: var(--highlight-color);
@@ -35,3 +43,4 @@ h1, h2, h3 {
     background-color: lightgray;
 }
 */
+
