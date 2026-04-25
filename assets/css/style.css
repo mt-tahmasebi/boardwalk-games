@@ -83,6 +83,12 @@ h3 {
     #services .card-body {
         min-height: 220px;
     }
+    #new-games .card-body {
+        min-height: 260px;
+    }    
+    #fav-games .card-body {
+        min-height: 304px;
+    }    
 }
 
 /* xxl devices (larger desktops, 1400px and up) */
@@ -90,5 +96,11 @@ h3 {
     /* make all service cards the same height for consistency */
     #services .card-body {
         min-height: 195px;
+    }
+    #new-games .card-body {
+        min-height: 235px;
+    }
+    #fav-games .card-body {
+        min-height: 256px;
     }
 }
