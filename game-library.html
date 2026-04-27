@@ -86,7 +86,7 @@
     <!-- main element to hold all key sections of the game library page. It is not part of the grid structure -->
     <main>
         <!-- new games section -->
-        <section id="new-games" class="container">
+        <section id="new-games" class="container mb-4">
             <div class="row">
                 <div class="col-12">
                     <h2>New Games</h2>
@@ -228,7 +228,51 @@
                     </div>                      
                 </div>
             </div>
-        </section>        
+        </section> 
+        <!-- reserving a game section -->
+        <section id="booking-form" class="container section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <h2 class="text-center">RESERVE A GAME</h2>
+                    <form action="success.html" method="GET">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input class="form-control" id="phone" name="phone" type="number" required>
+                            </div>                            
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="event-type" class="form-label">Select game</label>
+                                <select id="event-type" class="form-select" name="event-type" required>
+                                    <option value="" selected>Select</option>
+                                    <option value="galaxy">Galaxy Pioneers</option>
+                                    <option value="mystic">Mystic Woods</option>
+                                    <option value="captain">Captain's Gambit</option>
+                                    <option value="critter">Critter Quest</option>
+                                    <option value="setters">Setters of Catan</option>
+                                    <option value="monopoly">Monopoly</option>
+                                    <option value="exploding">Exploding Kittens</option>
+                                    <option value="cluedo">Cluedo</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="req-date" class="form-label">Requested date</label>
+                                <input class="form-control" id="requested-date" name="req-date" type="date" required>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn custom-button-outline">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>               
     </main>
     <!-- footer / contact section -->
     <!-- mt-auto added to push footer to the bottom of the page -->
