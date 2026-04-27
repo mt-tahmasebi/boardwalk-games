@@ -12,7 +12,7 @@
 /* global style */
 body {
     font-family: var(--primary-font);
-    padding-top: 58.55; /* pushes the top of the header down under fixed navbar */
+    margin-top: 2px; /* pushes the top of the header down under fixed navbar */
 }
 
 h1, h2, h3 {
